@@ -1,0 +1,45 @@
+.trending-nfts{
+    padding: 108px;
+    position: relative;
+}
+
+.tn-title{
+    font-size: 46px;
+    font-weight: 700;
+    padding: 24px;
+    margin-bottom: 36px;
+}
+
+.tn-bg-blob{
+    height: 550px;
+    width: 550px;
+    background-color: var(--bg-blob);
+    filter: blur(160.58px);
+    position: absolute;
+    z-index: -99;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.tn-nft{
+    display: flex;
+    flex-wrap: wrap;
+    /* transform: rotate(45deg); */
+}
+
+.tn-nft-item{
+    height: 260px;
+    width: 260px;
+    overflow: hidden;
+    margin: 6px;
+    /* transform: rotate(-45deg); */
+    cursor: pointer;
+    border: 3px solid var(--white);
+    border-radius: 12px;
+}
+
+.tfn-nft-item img{
+    height: 260px;
+    object-fit: contain;
+    display: block;
+}
